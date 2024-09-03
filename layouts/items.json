@@ -1,0 +1,83 @@
+{
+    "digimon_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "4, 4",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "agumon",
+								"gabumon",
+								"patamon",
+								"biyomon",
+								"elecmon",
+								"kunemon",
+								"palmon",
+                                "betamon",
+								"penguinmon",
+								"coelamon"
+                            ],
+                            [
+								"vegiemon",
+								"monochromon",
+								"centarumon",
+								"tyrannomon",
+								"birdramon",
+								"shellmon",
+								"garurumon",
+								"mojyamon",
+								"frigimon",
+								"whamon"
+                            ],
+							[
+								"meramon",
+								"drimogemon",
+								"unimon",
+								"vademon",
+								"kokatorimon",
+								"monzaemon",
+								"ninjamon",
+								"angemon",
+								"skullgreymon",
+								"andromon"
+							],
+							[
+								"mamemon",
+								"giromon",
+								"piximon",
+								"metalmamemon",
+								"seadramon",
+								"kuwagamon",
+								"kabuterimon",
+								"leomon",
+								"ogremon",
+								"etemon"
+							],
+							[
+								"bakemon",
+								"sukamon",
+								"numemon",
+								"nanimon",
+								"greymon",
+                                "airdramon",
+								"devimon",
+								"metalgreymon",
+								"megadramon",
+								"digitamamon"
+							]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

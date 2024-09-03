@@ -1,0 +1,32 @@
+{
+    "building_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+						"item_size": 90,
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+								"meat_farm","item_bank","item_shop"
+							],
+                            [
+								"birdra_transport","clinic","restaurant"
+							],
+							[
+								"stat","","prosperity"
+							]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

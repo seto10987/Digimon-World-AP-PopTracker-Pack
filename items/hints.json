@@ -1,0 +1,402 @@
+[
+    {
+        "type": "toggle",
+        "codes": "1_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "2_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "3_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "4_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "5_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "6_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "7_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "8_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "9_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "10_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "11_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "12_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "13_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "14_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "15_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "16_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "17_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "18_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "19_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "20_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "21_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "22_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "23_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "24_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "25_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "26_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "27_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "28_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "29_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "30_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "31_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "32_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "33_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "34_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "35_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "36_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "37_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "38_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "39_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "40_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "41_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "42_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "43_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "44_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "45_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "46_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "47_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "48_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "49_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "50_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "51_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "52_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "53_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "54_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "55_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "56_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "57_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "58_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "59_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "60_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "61_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "62_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "63_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "64_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "65_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "66_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "67_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "68_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "69_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "70_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "71_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "72_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "73_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "74_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "75_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "76_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "77_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "78_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "79_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "80_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "81_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "82_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "83_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "84_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "85_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "86_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "87_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "88_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "89_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "90_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "91_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "92_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "93_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "94_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "95_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "96_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "97_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "98_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "99_prosperity_hint"
+    },
+    {
+        "type": "toggle",
+        "codes": "100_prosperity_hint"
+    }    
+]
