@@ -6,7 +6,7 @@
         "children": [
             {
                 "name": "Greymon",
-                "access_rules": ["$has_pp|prosperity_counter|15"],
+                "access_rules": ["$has_pp|prosperity_counter|15, greymon_soul, agumon,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Greymon",
@@ -27,7 +27,7 @@
             },
             {
                 "name": "Airdramon",
-                "access_rules": ["$has_pp|prosperity_counter|50"],
+                "access_rules": ["$has_pp|prosperity_counter|50, airdramon_soul,agumon,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Airdramon",
@@ -55,6 +55,7 @@
         "children": [
             {
                 "name": "Agumon",
+                "access_rules":["agumon_soul"],
                 "sections": [
                     {
                         "name": "Defeat Agumon",
@@ -74,6 +75,7 @@
             },
             {
                 "name": "Palmon",
+                "access_rules":["palmon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Palmon",
@@ -93,6 +95,7 @@
             },
             {
                 "name": "Kunemon",
+                "access_rules":["kunemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Kunemon",
@@ -112,6 +115,7 @@
             },
             {
                 "name": "Coelamon",
+                "access_rules":["coelamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Coelamon",
@@ -132,7 +136,7 @@
             },
             {
                 "name": "Seadramon",
-                "access_rules": ["$savanna, $bulletin_board"],
+                "access_rules": ["$savanna, shellmon, seadramon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Seadramon",
@@ -153,7 +157,7 @@
             },
             {
                 "name": "Ninjamon",
-                "access_rules": ["$secret_item_shop"],
+                "access_rules": ["$secret_item_shop, ninjamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Ninjamon",
@@ -174,7 +178,7 @@
             },
             {
                 "name": "Etemon",
-                "access_rules": ["$has_pp|prosperity_counter|50"],
+                "access_rules": ["$has_pp|prosperity_counter|50, etemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Etemon",
@@ -199,10 +203,10 @@
         "name": "Tropical Jungle",
         "chest_unopened_img": "images/items/jijimon.png",
         "chest_opened_img": "images/items/jijimon_opened.png",
-        "access_rules": ["$jungle"],
         "children": [
             {
                 "name": "Betamon",
+                "access_rules": ["betamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Betamon",
@@ -222,7 +226,7 @@
             },
             {
                 "name": "Vegiemon",
-                "access_rules": ["$rain_plant"],
+                "access_rules": ["palmon,vegiemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Vegiemon",
@@ -243,6 +247,7 @@
             },
             {
                 "name": "Centarumon",
+                "access_rules": ["centarumon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Centarumon",
@@ -263,6 +268,7 @@
             },
             {
                 "name": "Piximon",
+                "access_rules": ["pixiemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Piximon",
@@ -287,10 +293,11 @@
         "name": "Ancient Dino Region",
         "chest_unopened_img": "images/items/jijimon.png",
         "chest_opened_img": "images/items/jijimon_opened.png",
-        "access_rules": ["$ancient"],
+        "access_rules": ["centarumon"],
         "children": [
             {
                 "name": "Tyrannomon",
+                "access_rules": ["centarumon,tyrannomon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Tyrannomon",
@@ -311,7 +318,7 @@
             },
             {
                 "name": "Nanimon",
-                "access_rules": ["$nani_reqs"],
+                "access_rules": ["$nani_reqs, nanimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Nanimon",
@@ -335,10 +342,10 @@
         "name": "Grey Lord Mansion",
         "chest_unopened_img": "images/items/jijimon.png",
         "chest_opened_img": "images/items/jijimon_opened.png",
-        "access_rules": ["$mansion"],
         "children": [
             {
                 "name": "Bakemon",
+                "access_rules": ["bakemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Bakemon",
@@ -359,7 +366,7 @@
             },
             {
                 "name": "SkullGreymon",
-                "access_rules": ["$bulletin_board,$has_pp|prosperity_counter|40"],
+                "access_rules": ["greymon,shellmon,$has_pp|prosperity_counter|50,skullgreymon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat SkullGreymon",
@@ -384,10 +391,10 @@
         "name": "Great Canyon",
         "chest_unopened_img": "images/items/jijimon.png",
         "chest_opened_img": "images/items/jijimon_opened.png",
-        "access_rules": ["$canyon"],
         "children": [
             {
                 "name": "Monochromon",
+                "access_rules": ["monochromon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Monochromon",
@@ -408,6 +415,7 @@
             },
             {
                 "name": "Birdramon",
+                "access_rules": ["birdramon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Birdramon",
@@ -428,6 +436,7 @@
             },
             {
                 "name": "Shellmon",
+                "access_rules": ["$has_pp|prosperity_counter|6,shellmon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Shellmon",
@@ -452,10 +461,10 @@
         "name": "Freezeland",
         "chest_unopened_img": "images/items/jijimon.png",
         "chest_opened_img": "images/items/jijimon_opened.png",
-        "access_rules": ["$freezeland"],
         "children": [
             {
                 "name": "Penguinmon",
+                "access_rules": ["penguinmon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Penguinmon",
@@ -475,6 +484,7 @@
             },
             {
                 "name": "Mojyamon",
+                "access_rules": ["mojyamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Mojyamon",
@@ -495,6 +505,7 @@
             },
             {
                 "name": "Frigimon",
+                "access_rules": ["frigimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Frigimon",
@@ -515,6 +526,7 @@
             },
             {
                 "name": "Garurumon",
+                "access_rules": ["garurumon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Garurumon",
@@ -535,6 +547,7 @@
             },
             {
                 "name": "Angemon",
+                "access_rules": ["angemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Angemon",
@@ -555,7 +568,7 @@
             },
             {
                 "name": "Whamon",
-                "access_rules": ["$canyon,$freezeland"],
+                "access_rules": ["$has_pp|prosperity_counter|6,whamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Whamon",
@@ -583,6 +596,7 @@
         "children": [
             {
                 "name": "Meramon",
+                "access_rules": ["meramon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Meramon",
@@ -603,6 +617,7 @@
             },
             {
                 "name": "Drimogemon",
+                "access_rules": ["meramon,drimogemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Drimogemon",
@@ -623,7 +638,7 @@
             },
             {
                 "name": "Ogremon",
-                "access_rules": ["$ogre_reqs"],
+                "access_rules": ["$ogre_reqs,ogremon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Ogremon",
@@ -652,7 +667,7 @@
         "children": [
             {
                 "name": "Unimon",
-                "access_rules": ["$clinic"],
+                "access_rules": ["mon,meramon,unimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Unimon",
@@ -673,6 +688,7 @@
             },
             {
                 "name": "Mamemon",
+                "access_rules": ["meramon,mamemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Mamemon",
@@ -693,7 +709,7 @@
             },
             {
                 "name": "Vademon",
-                "access_rules": ["$bulletin_board, $has_pp|prosperity_counter|45"],
+                "access_rules": ["shellmon,$has_pp|prosperity_counter|45,meramon,vademon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Vademon",
@@ -722,6 +738,7 @@
         "children": [
             {
                 "name": "Elecmon",
+                "access_rules": ["elecmon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Elecmon",
@@ -741,6 +758,7 @@
             },
             {
                 "name": "Patamon",
+                "access_rules": ["patamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Patamon",
@@ -760,6 +778,7 @@
             },
             {
                 "name": "Biyomon",
+                "access_rules": ["biyomon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Biyomon",
@@ -779,7 +798,7 @@
             },
             {
                 "name": "Leomon",
-                "access_rules": ["$has_pp|prosperity_counter|45"],
+                "access_rules": ["$has_pp|prosperity_counter|50,meramon,leomon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Leomon",
@@ -800,6 +819,7 @@
             },
             {
                 "name": "Sukamon",
+                "access_rules": ["sukamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Sukamon",
@@ -827,6 +847,7 @@
         "children": [
             {
                 "name": "Gabumon",
+                "access_rules": ["gabumon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Gabumon",
@@ -846,6 +867,7 @@
             },
             {
                 "name": "Kokatorimon",
+                "access_rules": ["kokatorimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Kokatorimon",
@@ -874,6 +896,7 @@
         "children": [
             {
                 "name": "Monzaemon",
+                "access_rules": ["monzaemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Monzaemon",
@@ -902,7 +925,7 @@
         "children": [
             {
                 "name": "Andromon",
-                "access_rules": ["$factorio"],
+                "access_rules": ["numemon,andromon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Andromon",
@@ -923,7 +946,7 @@
             },
             {
                 "name": "Giromon",
-                "access_rules": ["$factorio"],
+                "access_rules": ["numemon,giromon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Giromon",
@@ -944,6 +967,7 @@
             },
             {
                 "name": "MetalMamemon",
+                "access_rules": ["whamon,metalmamemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat MetalMamemon",
@@ -964,6 +988,7 @@
             },
             {
                 "name": "Numemon",
+                "access_rules": ["whamon,numemon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Numemon",
@@ -991,6 +1016,7 @@
         "children": [
             {
                 "name": "Kabuterimon",
+                "access_rules": ["seadramon,kabuterimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Kabuterimon",
@@ -1011,6 +1037,7 @@
             },
             {
                 "name": "Kuwagamon",
+                "access_rules": ["seadramon,kuwagamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Recruit Kuwagamon",
@@ -1039,6 +1066,7 @@
         "children": [
             {
                 "name": "Devimon",
+                "access_rules": ["$has_pp|prosperity_counter|50,devimon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Devimon",
@@ -1059,6 +1087,7 @@
             },
             {
                 "name": "MetalGreymon",
+                "access_rules": ["$has_pp|prosperity_counter|50,greymon,metalgreymon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat MetalGreymon",
@@ -1079,6 +1108,7 @@
             },
             {
                 "name": "Megadramon",
+                "access_rules": ["$has_pp|prosperity_counter|50,megadramon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Megadramon",
@@ -1099,6 +1129,7 @@
             },
             {
                 "name": "Digitamamon",
+                "access_rules": ["$has_pp|prosperity_counter|50,digitamamon_soul,agumon"],
                 "sections": [
                     {
                         "name": "Defeat Digitamamon",

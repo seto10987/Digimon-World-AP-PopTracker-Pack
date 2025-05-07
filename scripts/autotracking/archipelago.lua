@@ -12,6 +12,17 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+function resetHints(mapping_table)
+    for _, value in pairs(mapping_table) do
+        if value[1] then
+            local object = Tracker:FindObjectForCode(value[1])
+            if object then
+                object.Active = false
+            end
+        end
+    end
+end
+
 function onClear(slot_data)
 
     SLOT_DATA = slot_data
@@ -54,8 +65,11 @@ function onClear(slot_data)
             end
         end
     end
+
+    resetHints(HINTS_MAPPING)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    Tracker:FindObjectForCode("prosperity_counter").AcquiredCount = 0
 
     print(dump_table(SLOT_DATA))
     if SLOT_DATA == nil then

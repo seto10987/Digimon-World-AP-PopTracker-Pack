@@ -29,52 +29,32 @@ function checkRequirements(reference, check_count)
     end
 end
 
-function jungle()
-    return true
-end
-
-function ancient()
-    return has("centarumon")
-end
-
-function mansion()
-    return has("centarumon")
-end
-
-function canyon()
-    return has_pp("prosperity_counter", 6) and has("centarumon")
-end
-
-function freezeland()
-    return has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon"))
-end
-
 function panorama()
-    return has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon"))
+    return has("meramon") or has_pp("prosperity_counter", 6)
 end
 
 function savanna()
-    return has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon"))
+    return has("meramon") or has_pp("prosperity_counter", 6)
 end
 
 function swamp()
-    return has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon"))
+    return has("meramon") or has_pp("prosperity_counter", 6)
 end
 
 function misty()
-    return has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon"))
+    return has("meramon") or has_pp("prosperity_counter", 6)
 end
 
 function toy()
-    return has("meramon") and (has_pp("prosperity_counter", 6) and has("centarumon"))
+    return has("meramon") and has_pp("prosperity_counter", 6)
 end
 
 function beetle()
-    return has("seadramon") and (has("meramon") or (has_pp("prosperity_counter", 6) and has("centarumon")))
+    return has("seadramon") and (has("meramon") or has_pp("prosperity_counter", 6))
 end
 
 function factorial()
-    return has("whamon") and has_pp("prosperity_counter", 6) and has("centarumon")
+    return has("whamon") and has_pp("prosperity_counter", 6)
 end
 
 function infinity()
@@ -83,32 +63,12 @@ end
 
 ------------------------------------------
 
-function rain_plant()
-    return has("palmon")
-end
-
-function clinic()
-    return has("centarumon")
-end
-
 function item_shop()
     return has("biyomon") or has("monochromon") or has("patamon") or has("unimon")
 end
 
 function restaurant()
     return  has("frigimon") or has("garurumon") or has("meramon") or has("tyrannomon") or has("digitamamon")
-end
-
-function arena()
-    return has("greymon")
-end
-
-function factorio()
-    return clinic() and item_shop() and restaurant() and arena()
-end
-
-function bulletin_board()
-    return has("shellmon")
 end
 
 function secret_item_shop()
@@ -120,5 +80,5 @@ function ogre_reqs()
 end
 
 function nani_reqs()
-    return has_pp("prosperity_counter", 45) and has("whamon") and has("centarumon") and has("tyrannomon") and has("meramon")
+    return has_pp("prosperity_counter", 45) and has("leomon") and has("tyrannomon") and has("numemon") and has("meramon")
 end

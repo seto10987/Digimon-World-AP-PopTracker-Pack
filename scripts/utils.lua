@@ -293,9 +293,9 @@ function birdra_transport_birdramon()
 end
 
 function clinic_centarumon()
-    if Tracker:FindObjectForCode("birdramon").Active == true then
+    if Tracker:FindObjectForCode("centarumon").Active == true then
         Tracker:FindObjectForCode("clinic").Active = true
-    elseif Tracker:FindObjectForCode("birdramon").Active == false then
+    elseif Tracker:FindObjectForCode("centarumon").Active == false then
         Tracker:FindObjectForCode("clinic").Active = false
     end
 end

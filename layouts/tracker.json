@@ -54,6 +54,14 @@
 												"file_island"
 											]
 										}
+									},
+									{
+										"title": "Cards",
+										"content": {
+											"type": "layout",
+											"key":  "card_grid"
+											
+										}
 									}
 								]
 							}
